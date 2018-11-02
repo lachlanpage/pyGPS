@@ -1,4 +1,4 @@
-# Simple example use of using pyGPS 
+# Simple example use of using pyGPS
 import pyGPS
 import time
 
@@ -7,5 +7,5 @@ gps = pyGPS.pyGPS(4800)
 
 while True:
     gps.updateData()
-    time.sleep(2)
+    #time.sleep(2)
     gps.printData()
